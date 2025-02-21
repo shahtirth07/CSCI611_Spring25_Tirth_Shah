@@ -35,10 +35,10 @@ This repository covers **Assignment 2** of **CSCI 611**, including implementatio
 
 **Optimizer Comparison:**
 
-| Optimizer | Learning Rate | Accuracy |
-|-----------|---------------|----------|
-| SGD       | 0.01          | **76%**  |
-| Adam      | 0.001         | 67%      |
+| Optimizer | Accuracy |
+|-----------|----------|
+| SGD       | **76%**  |
+| Adam      |   67%    |
 
 - **Change in Optimizer:**
   - Tested Adam optimizer but observed a **decrease in accuracy** compared to SGD. This highlighted that **optimizer performance can vary significantly** based on dataset and architecture.
