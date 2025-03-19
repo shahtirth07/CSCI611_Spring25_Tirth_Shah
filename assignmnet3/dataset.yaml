@@ -1,0 +1,6 @@
+train: Self-Driving Cars.v6-version-4-prescan-416x416.voc/train/JPG_Files
+val: Self-Driving Cars.v6-version-4-prescan-416x416.voc/valid/JPG_Files
+test: Self-Driving Cars.v6-version-4-prescan-416x416.voc/test/JPG_Files
+
+nc: 4 # Number of classes
+names: ["traffic_light", "stop_sign", "speed_limit", "crosswalk"]
